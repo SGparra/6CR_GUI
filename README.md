@@ -20,29 +20,17 @@ Características
 
 - Navegación entre documentos
 
-project/
-│
-├── app.py
-├── modules.py
-├── PDF/
-│   └── (pdfs temporales servidos por la app)
-│
-├── database/
-│   └── database.db
-│
-└── README.md
-
-Requisitos:
+# Requisitos:
 
 Instalar Python 3.9+.
 Dependencias principales:
 Shiny for Python
 
-Instalación:
+# Instalación:
 
 ejecutar `pip install -r requirements`
 
-Ejecución
+# Ejecución
 
 `shiny run app.py`
 
@@ -54,7 +42,7 @@ http://localhost:8000
 
 En el caso de que se desee lanzar la aplicación para una red de computadores. Luego de introducir el comando, abrir en el navegador web:
 
-http://<ip del computador>:8000
+http://[ip del computador]:8000
 
 
 
